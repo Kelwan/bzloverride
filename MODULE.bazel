@@ -1,5 +1,5 @@
 module(
-    name = "test-module",
+    name = "bzloverride",
     version = "0.1",
 )
 
@@ -10,8 +10,4 @@ git_override(
     module_name = "hedron_compile_commands",
     commit = "204aa593e002cbd177d30f11f54cff3559110bb9",
     remote = "https://github.com/hedronvision/bazel-compile-commands-extractor.git",
-)
-local_path_override(
-	 module_name="rules_cc",
-	 path="C:/users/austin/documents/programming/personal/MODULE.bazel",
 )
