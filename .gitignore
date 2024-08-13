@@ -1,0 +1,7 @@
+# bazel
+bazel-*
+*.bazel.lock
+user.bazelrc
+compile_commands.json
+external
+.cache/
