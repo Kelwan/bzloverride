@@ -3,5 +3,5 @@ A CLI util tool for [Bazel](https://bazel.build/) to write [local_path_override]
 ```
 bzloverride example_bazel_dep
 // Multiple args
-bzloverride example_bazel_dep1, example_bazel_dep2, example_bazel_dep3 
+bzloverride example_bazel_dep1 example_bazel_dep2 example_bazel_dep3 
 ```
