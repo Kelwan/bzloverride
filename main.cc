@@ -169,7 +169,7 @@ auto print_local_override(std::string dep_name) -> int {
 }
 
 int main(int argc, char *argv[]) {
-  for (int i = 0; i < argc; ++i) {
-    print_local_override(std::string(argv[i]));
+  for (int i = 1; i < argc; ++i) {
+    return print_local_override(std::string(argv[i]));
   }
 }
